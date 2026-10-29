@@ -1,0 +1,6 @@
+{
+  "name": "SpecForge - Academic Course Specification Workstation",
+  "description": "Precision course specification builder, ABET/ACM competency auditor, and curriculum spec modeling workstation for academic computer science and engineering faculties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

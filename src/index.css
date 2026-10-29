@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Hanken Grotesk", sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-canvas: #0b0f19;
+  --color-surface-low: #0f172a;
+  --color-surface-mid: #1e293b;
+  --color-surface-high: #334155;
+  --color-surface-dim: #0b1326;
+  --color-surface-container: #171f33;
+  --color-surface-container-high: #222a3d;
+  --color-surface-container-highest: #2d3449;
+
+  --color-brand-primary: #3b49df;
+  --color-brand-primary-hover: #4f5ef7;
+  --color-brand-secondary: #6366f1;
+  --color-brand-tertiary: #10b981;
+  --color-brand-ruby: #ef4444;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0b0f19;
+  color: #dae2fd;
+  overflow-x: hidden;
+}
+
+/* Precise micro-scrollbar styling for dense workstation panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222a3d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
